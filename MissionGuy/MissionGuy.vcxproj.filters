@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Shapes">
+      <UniqueIdentifier>{8558a414-5ff2-45ca-8734-e4fcb4ac2ebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vector">
+      <UniqueIdentifier>{812eb991-8212-40c6-aa93-e223ad228945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObj">
+      <UniqueIdentifier>{043776c6-548e-4eca-bc25-d409f4ce6121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shapes">
+      <UniqueIdentifier>{a918c70f-a3cc-4f7f-acee-b96bf4a06f0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObj">
+      <UniqueIdentifier>{76cb45d1-27db-495d-abf8-d76fcbd0b4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vector">
+      <UniqueIdentifier>{7e553e26-6d27-4d41-b824-34a88e574480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mission">
+      <UniqueIdentifier>{8a3ec8ba-3860-4ede-bc18-498c9d4fc1cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mission">
+      <UniqueIdentifier>{04771182-d312-402e-a41e-6fdc01c92d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scene">
+      <UniqueIdentifier>{bed84ab8-802c-4e00-b2c4-1b34bf1c0531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{375c970c-cfad-4a90-b7d3-14a8b36e0d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collision">
+      <UniqueIdentifier>{59a42510-65d2-4131-8650-65e7d172f790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision">
+      <UniqueIdentifier>{0c5b7597-aa07-4fb9-82f6-682a8419516c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{59dd22b5-6b50-48cd-b04c-f026827a46a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{58ba2140-89b5-48e0-989f-8f29036a6f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Actors">
+      <UniqueIdentifier>{960aa634-deb3-4ac3-9923-b82acdf6d4cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Actors">
+      <UniqueIdentifier>{3bc83241-5d5d-41d7-aa18-dbc32fbe76bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Renderer\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Time\Time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Input\Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Vector\Vector2.cpp">
+      <Filter>Source Files\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GameObject\Actor2D.cpp">
+      <Filter>Source Files\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GameObject\Pawn.cpp">
+      <Filter>Source Files\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Shape\Circle.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Shape\Rect.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Shape\Triangle.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Mission\MissionManager.cpp">
+      <Filter>Source Files\Mission</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Mission\Mission.cpp">
+      <Filter>Source Files\Mission</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Collision\Collider.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Collision\Bounds.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Collision\CollisionManager.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GameObject\GameObject.cpp">
+      <Filter>Source Files\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\MG_Pawn.cpp">
+      <Filter>Source Files\Game\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Cubie.cpp">
+      <Filter>Source Files\Game\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Collision\CollisionVolume.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Scene\Level_01.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Collision\Trigger.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game\Pawns\Kamikaze.cpp">
+      <Filter>Source Files\Game\Actors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Renderer\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Time\Time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Input\Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shape\Circle.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shape\Rect.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shape\Triangle.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shape\Shape.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Vector\Vector2.h">
+      <Filter>Header Files\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GameObject\Actor2D.h">
+      <Filter>Header Files\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GameObject\GameObject.h">
+      <Filter>Header Files\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GameObject\Pawn.h">
+      <Filter>Header Files\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Mission\Mission.h">
+      <Filter>Header Files\Mission</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Mission\MissionManager.h">
+      <Filter>Header Files\Mission</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Collision\Collider.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Collision\Bounds.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Collision\CollisionManager.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Game.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\MG_Pawn.h">
+      <Filter>Header Files\Game\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Cubie.h">
+      <Filter>Header Files\Game\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Collision\CollisionVolume.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Scene\Level_01.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Scene\Scene.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Collision\Trigger.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game\Pawns\Kamikaze.h">
+      <Filter>Header Files\Game\Actors</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
